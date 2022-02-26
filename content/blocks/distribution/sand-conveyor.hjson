@@ -1,0 +1,14 @@
+name: Sand conveyor
+description: Transports items forward. Does not accept inputs from the side.
+type: ArmoredConveyor
+health: 50
+size: 1
+noSideBlend: true
+speed: 0.03
+displayedSpeed: 4
+requirements: [
+ copper/1
+ sand/1
+]
+category: distribution
+research: conveyor
