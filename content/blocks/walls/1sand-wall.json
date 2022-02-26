@@ -1,0 +1,11 @@
+name: Sand wall
+description: Protects structures from enemy projectiles. Very fast to build.
+type: wall
+buildCostMultiplier: 0.5
+health: 200
+size: 1
+requirements: [
+ sand/8
+]
+category: defense
+research: copper-wall
