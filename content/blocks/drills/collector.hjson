@@ -1,0 +1,21 @@
+type: drill
+name: Collector
+description: Specialized drill capable of collecting large ammounts of sand and scrap. Can't drill through harder materials.
+size: 2
+hardnessDrillMultiplier: 100
+tier: 0
+drilltime: 300
+warmupSpeed: 0.015
+liquidBoostIntensity: 1.5
+rotateSpeed: 2
+hasItems: true
+hasLiquids: true
+liquidCapacity: 10
+itemcapacity: 30
+updateEffect: smeltsmoke
+requirements: [
+    copper/20
+    sand/10
+]
+category: production
+research: pneumatic-drill
