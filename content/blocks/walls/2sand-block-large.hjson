@@ -1,0 +1,11 @@
+name: Large sand wall
+description: Protects structures from enemy projectiles. Very fast to build.
+type: wall
+buildCostMultiplier: 0.5
+health: 800
+size: 2
+requirements: [
+ sand/32
+]
+category: defense
+research: 1sand-block
