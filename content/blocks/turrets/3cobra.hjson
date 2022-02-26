@@ -1,0 +1,55 @@
+type: ItemTurret
+name: Cobra
+description: Fires small clumps of sand at a very high rate. Short range but good for crowd control.
+health: 1500
+size: 3
+range: 90
+buildCostMultiplier: 0.75
+reloadTime: 6
+shots: 6
+spread: 1.85
+alternate: true
+category: turret
+rotateSpeed: 4.0
+alwaysUnlocked: false
+research: 2viper
+shootSound: bang
+recoilAmount: 1
+inaccuracy: 5
+maxAmmo: 30
+ammoPerShot: 1
+shootShake: 1
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 5.0
+ammoTypes: {
+    sand: {
+        type: basicBulletType
+        damage: 8
+        speed: 13
+        width: 10
+        height: 10
+        lifetime: 7
+        ammoMultiplier: 3
+        shootEffect: shootBig
+    }    
+	metasand: {
+        type: basicBulletType
+        damage: 10
+        speed: 15
+        width: 10
+        height: 10
+        lifetime: 6
+        pierce: true
+        pierceCap: 1
+        ammoMultiplier: 3
+        shootEffect: shootBig
+    }    
+}
+requirements: [
+    copper/100
+    sand/90
+    lead/80
+    graphite/75
+    titanium/75
+]

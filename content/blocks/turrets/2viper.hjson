@@ -1,0 +1,51 @@
+type: ItemTurret
+name: Viper
+description: Shoots big clumps of sand at the enemy. 
+health: 900
+size: 2
+range: 130
+buildCostMultiplier: 0.5
+reloadTime: 15
+category: turret
+rotateSpeed: 6.0
+alwaysUnlocked: false
+research: 1python
+shootSound: bang
+recoilAmount: 1
+inaccuracy: 1
+maxAmmo: 40
+ammoPerShot: 1
+shootShake: 1
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 3.0
+ammoTypes: {
+    sand: {
+        type: basicBulletType
+        damage: 9
+        speed: 12
+        width: 12
+        height: 20
+        lifetime: 14
+        ammoMultiplier: 2
+        shootEffect: shootSmall
+    }    
+	metasand: {
+        type: basicBulletType
+        damage: 12
+        speed: 15
+        width: 12
+        height: 20
+        lifetime: 12
+        ammoMultiplier: 2
+        pierce: true
+        pierceCap: 1
+        shootEffect: shootBig
+    }    
+}
+requirements: [
+    copper/100
+    sand/75
+    lead/60
+    graphite/45
+]

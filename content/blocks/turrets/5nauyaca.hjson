@@ -1,0 +1,55 @@
+type: ItemTurret
+name: Nauyaca
+description: The pinnacle of sand-based weaponry. Fires ultracompressed sand at very high speeds.
+health: 2400
+size: 4
+range: 180
+buildCostMultiplier: 0.75
+reloadTime: 18
+shots: 2
+spread: 5
+alternate: true
+category: turret
+rotateSpeed: 1.0
+alwaysUnlocked: false
+research: 3cobra
+shootSound: bang
+recoilAmount: 2
+inaccuracy: 0
+maxAmmo: 30
+ammoPerShot: 1
+shootShake: 2
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 5.0
+ammoTypes: {
+    sand: {
+        type: basicBulletType
+        damage: 20
+        speed: 13
+        width: 10
+        height: 10
+        lifetime: 7
+        ammoMultiplier: 3
+        shootEffect: shootBig
+    }    
+	metasand: {
+        type: basicBulletType
+        damage: 10
+        speed: 15
+        width: 10
+        height: 10
+        lifetime: 6
+        pierce: true
+        pierceCap: 1
+        ammoMultiplier: 3
+        shootEffect: shootBig
+    }    
+}
+requirements: [
+    copper/100
+    sand/90
+    lead/80
+    graphite/75
+    titanium/75
+]

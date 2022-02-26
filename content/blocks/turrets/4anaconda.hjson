@@ -1,0 +1,57 @@
+type: ItemTurret
+name: Anaconda
+description: Sandtillery. Fires an enormous bunch of sand at a very long distance.
+health: 1100
+size: 3
+range: 270
+buildCostMultiplier: 0.75
+reloadTime: 75
+category: turret
+rotateSpeed: 3.0
+alwaysUnlocked: false
+research: 2viper
+shootSound: artillery
+recoilAmount: 3
+inaccuracy: 3
+maxAmmo: 20
+ammoPerShot: 2
+targetAir: false
+shootShake: 2
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 5.0
+ammoTypes: {
+    sand: {
+        type: artilleryBulletType
+        damage: 10
+        knockback: 1.0
+        splashDamage: 15
+        splashDamageRadius: 25
+        speed: 3
+        width: 20
+        height: 20
+        lifetime: 50
+        ammoMultiplier: 1
+        shootEffect: shootBig
+    }
+    metasand: {
+        type: artilleryBulletType
+        damage: 15
+        knockback: 1.5
+        splashDamage: 19
+        splashDamageRadius: 35
+        speed: 4
+        width: 20
+        height: 20
+        lifetime: 50
+        ammoMultiplier: 1
+        shootEffect: shootBig
+    }    
+}
+requirements: [
+    copper/125
+    sand/100
+    lead/85
+    graphite/70
+    titanium/70
+]
