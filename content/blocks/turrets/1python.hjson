@@ -1,0 +1,52 @@
+type: ItemTurret
+name: Python
+description: Shoots clumps of sand at the enemy. Short range, low damage, but stupidly cheap.
+health: 250
+size: 1
+range: 80
+buildCostMultiplier: 0.5
+reloadTime: 25
+shots: 1
+spread: 15
+alternate: true
+category: turret
+rotateSpeed: 6.0
+alwaysUnlocked: false
+research: duo
+shootSound: bang
+recoilAmount: 1
+inaccuracy: 5
+maxAmmo: 40
+ammoPerShot: 1
+shootShake: 0
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 2.0
+ammoTypes: {
+    sand: {
+        type: basicBulletType
+        damage: 6
+        speed: 8
+        width: 7
+        height: 10
+        lifetime: 10
+        ammoMultiplier: 4
+        shootEffect: shootSmall
+    }    
+    metasand: {
+        type: basicBulletType
+        damage: 8
+        speed: 10
+        width: 7
+        height: 10
+        lifetime: 10
+        pierce: true
+        pierceCap: 1
+        ammoMultiplier: 4
+        shootEffect: shootSmall
+    }    
+}
+requirements: [
+    copper/25
+    sand/10
+]
