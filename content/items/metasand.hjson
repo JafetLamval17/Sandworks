@@ -1,0 +1,8 @@
+name: Metasand
+description: Sand that has been reinforced with titanium. Light and relatively tough.
+cost: 1
+hardness: 1
+flammability: 0
+radioactivity: 0
+color: dcbc82
+research: sand
