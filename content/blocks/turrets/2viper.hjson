@@ -22,21 +22,25 @@ coolantMultiplier: 3.0
 ammoTypes: {
     sand: {
         type: basicBulletType
-        damage: 9
+        damage: 8
         speed: 12
-        width: 12
-        height: 20
-        lifetime: 14
+        width: 9
+        height: 11
+		frontColor: 7094fe
+        backColor: 323ea4
+        lifetime: 11
         ammoMultiplier: 2
         shootEffect: shootSmall
     }    
 	metasand: {
         type: basicBulletType
-        damage: 12
+        damage: 10
         speed: 15
-        width: 12
-        height: 20
-        lifetime: 12
+        width: 8
+        height: 10
+		frontColor: 7094fe
+        backColor: 323ea4
+        lifetime: 9
         ammoMultiplier: 2
         pierce: true
         pierceCap: 1

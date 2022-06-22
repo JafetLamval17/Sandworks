@@ -12,7 +12,7 @@ alwaysUnlocked: false
 research: 2viper
 shootSound: artillery
 recoilAmount: 3
-inaccuracy: 3
+inaccuracy: 2
 maxAmmo: 20
 ammoPerShot: 2
 targetAir: false
@@ -30,6 +30,8 @@ ammoTypes: {
         speed: 3
         width: 20
         height: 20
+		frontColor: 7094fe
+        backColor: 323ea4
         lifetime: 50
         ammoMultiplier: 1
         shootEffect: shootBig
@@ -43,6 +45,8 @@ ammoTypes: {
         speed: 4
         width: 20
         height: 20
+		frontColor: 7094fe
+        backColor: 323ea4
         lifetime: 50
         ammoMultiplier: 1
         shootEffect: shootBig
