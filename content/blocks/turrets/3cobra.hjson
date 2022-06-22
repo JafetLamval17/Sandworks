@@ -13,7 +13,9 @@ category: turret
 rotateSpeed: 4.5
 alwaysUnlocked: false
 research: 2viper
-shootSound: bang
+shootSound: pew
+soundPitchMin: 1.1
+soundPitchMax: 1.3
 recoilAmount: 1
 inaccuracy: 8
 maxAmmo: 30

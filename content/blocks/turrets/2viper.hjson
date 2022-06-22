@@ -10,7 +10,9 @@ category: turret
 rotateSpeed: 6.0
 alwaysUnlocked: false
 research: 1python
-shootSound: bang
+shootSound: pew
+soundPitchMin: 1
+soundPitchMax: 1.2
 recoilAmount: 1
 inaccuracy: 1
 maxAmmo: 40
