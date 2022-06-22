@@ -30,8 +30,8 @@ ammoTypes: {
         speed: 3
         width: 20
         height: 20
-		frontColor: 7094fe
-        backColor: 323ea4
+		frontColor: ffeea8
+        backColor: 9c9165
         lifetime: 50
         ammoMultiplier: 1
         shootEffect: shootBig
@@ -45,8 +45,8 @@ ammoTypes: {
         speed: 4
         width: 20
         height: 20
-		frontColor: 7094fe
-        backColor: 323ea4
+		frontColor: cccc7e
+        backColor: 737357
         lifetime: 50
         ammoMultiplier: 1
         shootEffect: shootBig

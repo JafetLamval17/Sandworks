@@ -29,8 +29,8 @@ ammoTypes: {
         speed: 13
         width: 10
         height: 10
-		frontColor: 7094fe
-        backColor: 323ea4
+		frontColor: ffeea8
+        backColor: 9c9165
         lifetime: 7
         ammoMultiplier: 3
         shootEffect: shootBig
@@ -41,8 +41,8 @@ ammoTypes: {
         speed: 15
         width: 10
         height: 10
-		frontColor: 7094fe
-        backColor: 323ea4
+		frontColor: cccc7e
+        backColor: 737357
         lifetime: 6
         pierce: true
         pierceCap: 1
