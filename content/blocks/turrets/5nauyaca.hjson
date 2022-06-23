@@ -7,13 +7,13 @@ range: 180
 buildCostMultiplier: 0.75
 reloadTime: 10
 shots: 2
-spread: 5
-alternate: true
+spread: 20
+alternate: false
 category: turret
 rotateSpeed: 1.0
 alwaysUnlocked: false
 research: 3cobra
-shootSound: bang
+shootSound: shootbig
 recoilAmount: 3
 inaccuracy: 1
 maxAmmo: 30
