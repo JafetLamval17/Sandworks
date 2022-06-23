@@ -56,6 +56,7 @@ requirements: [
     copper/100
     sand/90
     lead/80
+	metasand/50
     graphite/75
     titanium/75
 ]

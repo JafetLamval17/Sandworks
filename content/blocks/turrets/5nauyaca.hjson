@@ -53,9 +53,10 @@ ammoTypes: {
     }    
 }
 requirements: [
-    copper/100
-    sand/90
-    lead/80
-    graphite/75
-    titanium/75
+    copper/150
+    sand/140
+    graphite/100
+    titanium/100
+	plastanium/75
+	metasand/75
 ]
