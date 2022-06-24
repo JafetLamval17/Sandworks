@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Cobra
-description: Fires small clumps of sand at a very high rate. Short range but good for crowd control.
 health: 1500
 size: 3
 range: 90
