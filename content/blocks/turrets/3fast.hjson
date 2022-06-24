@@ -53,7 +53,7 @@ ammoTypes: {
     }    
 }
 requirements: [
-    sand50
+    sand/50
     lead/70
 	metasand/50
     graphite/70

@@ -1,5 +1,3 @@
-name: Sand conveyor
-description: Transports items forward. Does not accept inputs from the side.
 type: ArmoredConveyor
 health: 50
 size: 1

@@ -1,10 +1,7 @@
-type: drill
-name: Collector
-description: Specialized drill capable of collecting large ammounts of sand and scrap. Can't drill through harder materials.
+type: drill 
 size: 2
-hardnessDrillMultiplier: 100
 tier: 0
-drilltime: 300
+drilltime: 150
 warmupSpeed: 0.015
 liquidBoostIntensity: 1.5
 rotateSpeed: 2
