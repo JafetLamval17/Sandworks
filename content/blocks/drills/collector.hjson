@@ -3,7 +3,7 @@ size: 2
 tier: 0
 drilltime: 150
 warmupSpeed: 0.015
-liquidBoostIntensity: 1.5
+liquidBoostIntensity: 1
 rotateSpeed: 2
 hasItems: true
 hasLiquids: true

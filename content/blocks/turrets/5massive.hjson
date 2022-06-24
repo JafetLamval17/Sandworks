@@ -8,6 +8,7 @@ shots: 2
 spread: 18
 alternate: true
 category: turret
+unitSort: strongest
 rotateSpeed: 1.0
 alwaysUnlocked: false
 research: 3fast
