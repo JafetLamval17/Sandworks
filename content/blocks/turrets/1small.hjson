@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Python
-description: Shoots clumps of sand at the enemy. Short range, low damage, but stupidly cheap.
 health: 250
 size: 1
 range: 80

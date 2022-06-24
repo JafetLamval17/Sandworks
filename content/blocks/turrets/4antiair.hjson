@@ -1,0 +1,59 @@
+type: ItemTurret
+health: 900
+size: 3
+range: 150
+buildCostMultiplier: 0.75
+reloadTime: 6
+shots: 1
+category: turret
+rotateSpeed: 9
+alwaysUnlocked: false
+research: 2big
+shootSound: pew
+targetGround: false
+soundPitchMin: 1.1
+soundPitchMax: 1.3
+recoilAmount: 1
+inaccuracy: 0
+maxAmmo: 20
+ammoPerShot: 1
+shootShake: 1
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 5.0
+ammoTypes: {
+    sand: {
+        type: basicBulletType
+        damage: 9
+        speed: 30
+        width: 8
+        height: 24
+		frontColor: ffeea8
+        backColor: 9c9165
+        lifetime: 5
+        ammoMultiplier: 3
+        shootEffect: shootBig
+    }    
+	metasand: {
+        type: basicBulletType
+        damage: 12
+        speed: 30
+        width: 8
+        height: 24
+		frontColor: cccc7e
+        backColor: 737357
+        lifetime: 5
+        pierce: true
+        pierceCap: 1
+        ammoMultiplier: 3
+        shootEffect: shootBig
+    }    
+}
+requirements: [
+    copper/100
+    sand/90
+    lead/80
+	metasand/50
+    graphite/75
+    titanium/75
+]

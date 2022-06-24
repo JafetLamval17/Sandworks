@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Viper
-description: Shoots big clumps of sand at the enemy. 
 health: 900
 size: 2
 range: 130
@@ -9,7 +7,7 @@ reloadTime: 15
 category: turret
 rotateSpeed: 6.0
 alwaysUnlocked: false
-research: 1python
+research: 1small
 shootSound: pew
 soundPitchMin: 1
 soundPitchMax: 1.2

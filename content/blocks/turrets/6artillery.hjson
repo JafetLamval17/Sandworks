@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Anaconda
-description: Sandtillery. Fires an enormous bunch of sand at a very long distance.
+description: 
 health: 1100
 size: 3
 range: 270
@@ -9,7 +9,7 @@ reloadTime: 75
 category: turret
 rotateSpeed: 3.0
 alwaysUnlocked: false
-research: 2viper
+research: 4antiair
 shootSound: artillery
 recoilAmount: 3
 inaccuracy: 2

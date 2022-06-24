@@ -1,5 +1,3 @@
-name: Large metasand wall
-description: Protects structures from enemy projectiles. Can ocasionally deflect bullets.
 chanceDeflect: 5
 type: wall
 buildCostMultiplier: 0.75

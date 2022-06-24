@@ -1,8 +1,6 @@
-name: Metasand wall
-description: Protects structures from enemy projectiles. Can ocasionally deflect bullets.
 chanceDeflect: 5
 type: wall
-buildCostMultiplier: 0.75
+buildCostMultiplier: 0.9
 health: 440
 size: 1
 requirements: [

@@ -12,7 +12,7 @@ alternate: true
 category: turret
 rotateSpeed: 4.5
 alwaysUnlocked: false
-research: 2viper
+research: 2big
 shootSound: pew
 soundPitchMin: 1.1
 soundPitchMax: 1.3
