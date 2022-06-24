@@ -7,7 +7,7 @@ range: 90
 buildCostMultiplier: 0.75
 reloadTime: 6
 shots: 6
-spread: 1.85
+spread: 1.9
 alternate: true
 category: turret
 rotateSpeed: 4.5
