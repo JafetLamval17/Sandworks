@@ -5,7 +5,7 @@ health: 1100
 size: 3
 range: 270
 buildCostMultiplier: 0.75
-reloadTime: 75
+reloadTime: 60
 category: turret
 rotateSpeed: 3.0
 alwaysUnlocked: false
@@ -23,9 +23,9 @@ coolantMultiplier: 5.0
 ammoTypes: {
     sand: {
         type: artilleryBulletType
-        damage: 10
+        damage: 20
         knockback: 1.0
-        splashDamage: 15
+        splashDamage: 20
         splashDamageRadius: 25
         speed: 3
         width: 20
@@ -38,9 +38,9 @@ ammoTypes: {
     }
     metasand: {
         type: artilleryBulletType
-        damage: 15
+        damage: 30
         knockback: 1.5
-        splashDamage: 19
+        splashDamage: 30
         splashDamageRadius: 35
         speed: 4
         width: 20
@@ -53,9 +53,9 @@ ammoTypes: {
     }    
 }
 requirements: [
-    sand/70
-	lead/50
-    metasand/85
+    sand/130
+    metasand/95
     graphite/70
     titanium/70
+	plastanium/45
 ]

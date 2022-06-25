@@ -8,7 +8,7 @@ shots: 2
 spread: 18
 alternate: true
 category: turret
-rotateSpeed: 1.0
+rotateSpeed: 3.0
 alwaysUnlocked: false
 research: 3fast
 shootSound: bang
