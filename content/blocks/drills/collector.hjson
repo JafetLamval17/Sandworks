@@ -1,18 +1,17 @@
 type: drill 
 size: 2
 tier: 0
-drilltime: 150
+drilltime: 120
 warmupSpeed: 0.015
 liquidBoostIntensity: 1
 rotateSpeed: 2
 hasItems: true
-hasLiquids: true
-liquidCapacity: 10
+hasLiquids: false
 itemcapacity: 30
 updateEffect: smeltsmoke
 requirements: [
-    copper/20
-    sand/10
+    copper/16
+    sand/8
 ]
 category: production
 research: pneumatic-drill
