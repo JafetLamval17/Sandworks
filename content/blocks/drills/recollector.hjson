@@ -1,25 +1,27 @@
 type: drill 
 size: 2
 tier: 0
-drilltime: 100
+drilltime: 30
 warmupSpeed: 0.015
 liquidBoostIntensity: 1.5
-rotateSpeed: 2
+rotateSpeed: 5
 hasItems: true
-hasLiquids: true
+hasLiquids: false
 itemcapacity: 30
 updateEffect: smeltsmoke
 consumes: {
+	power: 1
 	liquid: {
 		liquid: water
-		amount:0.1
+		amount:0.2
 		booster: true
 		optional: true
 	}
 }
 requirements: [
-    copper/16
-    sand/8
+    graphite/16
+    sand/16
+	metasand/10
 ]
 category: production
-research: pneumatic-drill
+research: collector
