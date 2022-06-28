@@ -3,7 +3,7 @@ size: 2
 tier: 0
 drilltime: 100
 warmupSpeed: 0.015
-liquidBoostIntensity: 1.5
+liquidBoostIntensity: 2.5
 rotateSpeed: 2
 hasItems: true
 hasLiquids: true
@@ -12,7 +12,7 @@ updateEffect: smeltsmoke
 consumes: {
 	liquid: {
 		liquid: water
-		amount:0.1
+		amount: 0.05
 		booster: true
 		optional: true
 	}
