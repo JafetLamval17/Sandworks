@@ -3,7 +3,7 @@ health: 1500
 size: 3
 range: 90
 buildCostMultiplier: 0.75
-reloadTime: 6
+reload: 6
 shots: 6
 spread: 2
 alternate: true

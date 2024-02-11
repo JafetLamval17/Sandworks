@@ -3,7 +3,7 @@ health: 900
 size: 2
 range: 130
 buildCostMultiplier: 0.5
-reloadTime: 15
+reload: 15
 category: turret
 rotateSpeed: 6.0
 alwaysUnlocked: false
