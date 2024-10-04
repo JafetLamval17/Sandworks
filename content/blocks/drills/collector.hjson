@@ -1,10 +1,10 @@
 type: drill 
 size: 2
 tier: 0
-drilltime: 100
+drilltime: 60
 warmupSpeed: 0.015
 liquidBoostIntensity: 2.5
-rotateSpeed: 2
+rotateSpeed: 0.1
 hasItems: true
 hasLiquids: true
 itemcapacity: 30
