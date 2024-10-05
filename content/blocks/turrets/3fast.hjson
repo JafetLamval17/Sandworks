@@ -14,7 +14,7 @@ research: 2big
 shootSound: pew
 soundPitchMin: 1.1
 soundPitchMax: 1.3
-shoot: shootAlternate
+shootPattern: shootAlternate
 recoilAmount: 1
 inaccuracy: 8
 maxAmmo: 30
