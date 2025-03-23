@@ -8,7 +8,6 @@ craftTime: 60
 drawArcSmelt: {
 alpha: 0.68
 flameColor: #eca950
-    }
 consumes: {
   power: 1.5
   items: {
