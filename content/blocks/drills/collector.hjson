@@ -9,10 +9,6 @@ hasItems: true
 hasLiquids: true
 itemCapacity: 30
 updateEffect: unitDust
-drawArcSmelt: {
-alpha: 0.68
-flameColor: #eca950
-}
 consumes: {
 	liquid: {
 		liquid: water

@@ -1,16 +1,16 @@
-type: GenericCrafter
+type: separator
 size: 3
 hasPower: true
 hasItems: true
 outputsItems: true
 color: 33bdcc
-craftTime: 600
-itemCapacity: 300
+craftTime: 30
+itemCapacity: 10
 consumes: {
-  power: 1.5
+  power: 1
   items: {
     items: [
-      sand/150
+      sand/20
     ]
   }
 }
@@ -21,7 +21,7 @@ requirements: [
 	sand/45
 	graphite/30
 ]
-outputItems: [
+results: [
 	sand/100
     copper/10
     lead/10
