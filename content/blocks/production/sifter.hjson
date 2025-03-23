@@ -4,13 +4,13 @@ hasPower: true
 hasItems: true
 outputsItems: true
 color: 33bdcc
-craftTime: 60
+craftTime: 300
 itemCapacity: 20
 consumes: {
   power: 1
   items: {
     items: [
-      sand/10
+      sand/20
     ]
   }
 }
@@ -21,9 +21,9 @@ requirements: [
 	graphite/30
 ]
 results: [
-	sand/100
-    copper/10
-    lead/10
+    copper/5
+    scrap/15
+    lead/5
     titanium/1
 ]
 category: crafting
