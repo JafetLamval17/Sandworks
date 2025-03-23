@@ -21,6 +21,5 @@ requirements: [
 	sand/45
 	graphite/30
 ]
-outputItem: metasand/1
 category: crafting
 research: collector
