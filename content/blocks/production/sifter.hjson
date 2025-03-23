@@ -14,7 +14,6 @@ consumes: {
     ]
   }
 }
-
 requirements: [
 	lead/60
 	titanium/45
