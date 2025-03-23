@@ -5,7 +5,7 @@ hasItems: true
 outputsItems: true
 color: 33bdcc
 craftTime: 60
-itemCapacity: 10
+itemCapacity: 20
 consumes: {
   power: 1
   items: {
