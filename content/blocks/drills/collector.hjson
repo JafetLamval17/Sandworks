@@ -3,12 +3,16 @@ size: 2
 tier: 0
 drillTime: 100
 warmupSpeed: 0.015
-liquidBoostIntensity: 1.6
+liquidBoostIntensity: 1.4
 rotateSpeed: 1
 hasItems: true
 hasLiquids: true
 itemCapacity: 30
 updateEffect: unitDust
+drawArcSmelt: {
+alpha: 0.68
+flameColor: #eca950
+}
 consumes: {
 	liquid: {
 		liquid: water
