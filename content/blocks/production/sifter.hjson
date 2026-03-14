@@ -18,7 +18,7 @@ requirements: [
 	lead/60
 	titanium/45
 	sand/45
-	graphite/30
+	metasand/30
 ]
 results: [
     copper/5
