@@ -4,6 +4,7 @@ size: 2
 range: 150
 buildCostMultiplier: 0.75
 reload: 12
+shoot: shootspread
 shots: 1
 category: turret
 rotateSpeed: 15

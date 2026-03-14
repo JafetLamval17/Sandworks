@@ -1,7 +1,7 @@
 type: drill 
 size: 2
 tier: 0
-drillTime: 100
+drillTime: 120
 warmupSpeed: 0.015
 liquidBoostIntensity: 1.5
 rotateSpeed: 1
@@ -19,7 +19,7 @@ consumes: {
 }
 requirements: [
     copper/16
-    sand/8
+    metasand/8
 ]
 category: production
 research: pneumatic-drill
